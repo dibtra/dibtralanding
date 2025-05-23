@@ -47,49 +47,32 @@
       align-items: center;
       text-align: center;
       min-height: 100vh;
-      padding: 2rem;
+      padding: 4rem 2rem 2rem;
+      background-color: #f9fafb;
     }
     .hero h1 {
-      font-size: 2.2rem;
+      font-size: 2.75rem;
       font-weight: 700;
-      color: #1d4ed8;
+      color: #1e293b;
+      max-width: 900px;
     }
-    .hero h1 strong {
-      color: #111827;
+    .hero p.subline {
+      font-size: 1.25rem;
+      color: #64748b;
+      margin: 1rem 0 2rem;
+      max-width: 600px;
     }
-    .hero p {
-      font-size: 1.2rem;
-      color: #1d4ed8;
+    .hero .button-group {
       margin: 1rem 0;
     }
-    .hero hr {
-      border: none;
-      height: 1px;
-      background-color: #e5e7eb;
-      width: 80%;
-      margin: 2rem auto;
-    }
-    main {
-      text-align: center;
-      padding: 3rem 2rem;
-    }
-    h2 {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #1d4ed8;
-    }
-    .main-text {
-      font-size: 1rem;
-      color: #6b7280;
-      margin-bottom: 2rem;
-    }
-    .button-group a {
+    .hero .button-group a {
       display: inline-block;
-      margin: 0 1rem;
+      margin: 0 0.5rem;
       padding: 0.75rem 1.5rem;
-      border-radius: 6px;
-      text-decoration: none;
+      font-size: 1rem;
       font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
     }
     .primary {
       background-color: #3b82f6;
@@ -98,15 +81,16 @@
     .secondary {
       border: 2px solid #3b82f6;
       color: #3b82f6;
+      background-color: transparent;
     }
-    .brands {
+    .features {
       display: flex;
       justify-content: center;
       gap: 2rem;
+      margin-top: 3rem;
       flex-wrap: wrap;
-      margin-top: 4rem;
-      color: #9ca3af;
       font-size: 0.875rem;
+      color: #94a3b8;
     }
   </style>
 </head>
@@ -123,30 +107,16 @@
   </header>
 
   <section class="hero">
-    <h1><strong>FIRST</strong> to every deal<br>
-    with <strong>INSTANT</strong> alerts<br>
-    and <strong>ZERO</strong> lag.</h1>
-    <hr>
-    <p><strong>So</strong> you can do more <strong>FLIPS</strong> and <strong>INSANE</strong> profit.</p>
-    <hr>
-    <p class="main-text">With dibtra you’ll get truly instant alerts for any item of your choice on marketplace platforms like craigslist, Facebook marketplace, and more!</p>
-  </section>
-
-  <main>
-    <h2>Be the FIRST to every deal with real-time INSTANT alerts across marketplace platforms like craigslist and Facebook.</h2>
-    <p class="main-text">With our scrapers hunting every second you can forget about the auto-refresh and hours of scrolling.</p>
+    <h1><strong>FIRST</strong> to every deal with <strong>INSTANT</strong> alerts and <strong>ZERO</strong> lag.</h1>
+    <p class="subline">So you can do more <strong>FLIPS</strong> and <strong>INSANE</strong> profit.</p>
     <div class="button-group">
       <a href="#" class="primary">Try for Free</a>
       <a href="#" class="secondary">Book a Demo</a>
     </div>
-
-    <div class="brands">
-      <div>Craigslist</div>
-      <div>Facebook</div>
-      <div>Offer-up</div>
-      <div>Nextdoor</div>
-      <div>and more</div>
+    <div class="features">
+      <div>14-day Free Trial</div>
+      <div>No Credit Card Required</div>
     </div>
-  </main>
+  </section>
 </body>
 </html>
